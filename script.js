@@ -26,9 +26,17 @@ function loseGame(){
   alert("Game over. You lost");
 }
 
+function generatePattern(){
+  for(let i = 0; i < WinCon + 1; i++){
+    pattern[i] = Math.floor(Math.random() * 4 + 1);
+    console.log(pattern[i]);
+  }
+}
+
 //start the game
 function startGame(){
   //set variable
+  generatePattern();
   progress = 0;
   gamePlay = true; 
   startBtn.classList.add("hidden");
