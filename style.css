@@ -1,0 +1,61 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;  
+}
+
+#gameButtonArea button {
+  margin: 5px; 
+  width: 200px;
+  height: 200px;
+}
+
+#button1{
+  background-color: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background-color: green;
+}
+
+#button2{
+  background-color: lightblue;
+}
+
+#button2:active, #button2.lit{
+  background-color: blue;
+}
+
+#button3{
+  background-color: pink;
+}
+
+#button3:active, #button3.lit {
+  background-color: red;
+}
+
+#button4{
+  background-color: lightyellow;
+}
+
+#button4:active, #button4.lit{
+  background-color: yellow;
+}
+
+
