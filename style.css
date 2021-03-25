@@ -24,38 +24,67 @@ button {
   margin: 5px; 
   width: 200px;
   height: 200px;
+/*   border: 3px outset grey; */
+}
+
+#gameButtonArea button:hover {
+  box-shadow: 5px 7px;
 }
 
 #button1{
   background-color: lightgreen;
 }
 
+#button1:hover{
+  background-image: linear-gradient(to right, lightgreen , green);
+}
+
 #button1:active, #button1.lit {
   background-color: green;
+  background-image: url("https://cdn.glitch.com/c23853f4-0c3a-42af-9ffe-bf3d10e9f88d%2FEarthbending_emblem.png?v=1616642146899");
+  background-size: cover;
 }
 
 #button2{
   background-color: lightblue;
 }
 
+#button2:hover{
+  background-image: linear-gradient(to right, lightblue, blue);
+}
+
 #button2:active, #button2.lit{
-  background-color: blue;
+/*   background-color: blue; */
+  background-image: url("https://cdn.glitch.com/c23853f4-0c3a-42af-9ffe-bf3d10e9f88d%2Fbecc3cc8cb0b8a997ac7434e14b61e6b.jpg?v=1616641879141");
+  background-size: cover;
 }
 
 #button3{
   background-color: pink;
 }
 
+#button3:hover{
+  background-image: linear-gradient(to right, pink , red);
+}
+
 #button3:active, #button3.lit {
-  background-color: red;
+/*   background-color: red; */
+  background-image: url("https://cdn.glitch.com/c23853f4-0c3a-42af-9ffe-bf3d10e9f88d%2Faabdbca6d01d7301e0059cd00c11d026.jpg?v=1616642130934");
+  background-size: cover;
 }
 
 #button4{
   background-color: lightyellow;
 }
 
+#button4:hover{
+  background-image: linear-gradient(to right, lightyellow , yellow);
+}
+
 #button4:active, #button4.lit{
   background-color: yellow;
+  background-image: url("https://cdn.glitch.com/c23853f4-0c3a-42af-9ffe-bf3d10e9f88d%2Fee541ee1ac3b75f07db0b97e8c0d34af.jpg?v=1616642140968");
+  background-size: cover;
 }
 
 
